@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using FrameWork;
+using Framework;
 using UnityEngine;
 
-public class MainMunePanel : UIPanelBase
-{
-
+namespace Framework {	
+	public class MainMunePanel : UIPanelBase
+	{
+	
+	}
 }

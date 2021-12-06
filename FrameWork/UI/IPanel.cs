@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     using UnityEngine;
 

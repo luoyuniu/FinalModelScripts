@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace FrameWork
+namespace Framework
 {
     public class TableIndex<TKeyType, TDataItem> : IDisposable
     {

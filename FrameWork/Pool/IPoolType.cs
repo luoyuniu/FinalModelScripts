@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// I cache type.

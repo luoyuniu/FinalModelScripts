@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 没有公共构造函数的对象工厂：相关对象只能通过反射获得

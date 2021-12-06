@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FrameWork {	
+namespace Framework {
 	public static class MonoSingletonProperty<T> where T : UnityEngine.MonoBehaviour, ISingleton
 	{
 		private static T mInstance = null;

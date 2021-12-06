@@ -1,6 +1,6 @@
 using System;
 
-namespace FrameWork {	
+namespace Framework {
 	[AttributeUsage(AttributeTargets.Class)]
 	public class MonoSingletonPath : Attribute
 	{

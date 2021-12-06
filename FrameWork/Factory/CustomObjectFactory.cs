@@ -1,6 +1,6 @@
 using System;
 
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 自定义对象工厂：相关对象是 自己定义 

@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     //一个管理模块最大消息数（3000）
     public class MsgSpan

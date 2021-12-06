@@ -1,5 +1,5 @@
 
-namespace FrameWork {
+namespace Framework {
 	public interface ISingleton
 	{
 	    void OnSingletonInit();

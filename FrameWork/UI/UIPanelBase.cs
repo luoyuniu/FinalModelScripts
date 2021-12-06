@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     using System.Collections.Generic;
     using UnityEngine;

@@ -1,6 +1,6 @@
 using System;
 
-namespace FrameWork
+namespace Framework
 {
     public interface IMsg : IPoolable, IPoolType
     {
@@ -28,17 +28,17 @@ namespace FrameWork
     public class Msg : IMsg, IPoolable, IPoolType
     {
         /// <summary>
-        /// EventID
+        /// 事件编号
         /// </summary>
         public virtual int EventID { get; set; }
 
         /// <summary>
-        /// Processed or not
+        /// 是否处理过
         /// </summary>
         public bool Processed { get; set; }
 
         /// <summary>
-        /// reusable or not 
+        /// 是否可回收 
         /// </summary>
         public bool ReuseAble { get; set; }
 
@@ -46,11 +46,6 @@ namespace FrameWork
         {
             get { return EventID / MsgSpan.Count * MsgSpan.Count; }
         }
-
-        public Msg()
-        {
-        }
-
         #region Object Pool
 
         public static Msg Allocate<T>(T eventId) where T : IConvertible

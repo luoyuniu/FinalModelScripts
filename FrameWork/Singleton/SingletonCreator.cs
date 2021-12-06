@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace FrameWork {	
+namespace Framework {
 	public static class SingletonCreator
 	{
 	    public static T CreateSingleton<T>() where T : class, ISingleton

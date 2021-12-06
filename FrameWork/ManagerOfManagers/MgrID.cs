@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 管理模块编号

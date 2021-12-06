@@ -1,5 +1,5 @@
 
-namespace FrameWork {
+namespace Framework {
     public static class SingletonProperty<T> where T : class, ISingleton
 	{
 		private static T mInstance;

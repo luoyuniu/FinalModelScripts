@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 // ReSharper disable once CheckNamespace
-namespace FrameWork
+namespace Framework
 {
     public class TypeEventSystem : ITypeEventSystem
     {

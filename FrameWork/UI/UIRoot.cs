@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FrameWork
+namespace Framework
 {
     [MonoSingletonPath("UIRoot")]
     public class UIRoot : MonoSingleton<UIRoot>

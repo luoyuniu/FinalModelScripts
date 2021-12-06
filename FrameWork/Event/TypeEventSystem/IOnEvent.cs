@@ -1,6 +1,6 @@
 using System;
 
-namespace FrameWork
+namespace Framework
 {
     public interface IOnEvent<T>
     {

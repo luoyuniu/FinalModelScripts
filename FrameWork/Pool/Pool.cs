@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 对象池

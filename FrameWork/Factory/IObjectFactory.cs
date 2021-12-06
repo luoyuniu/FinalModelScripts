@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 对象工厂接口

@@ -1,5 +1,5 @@
 
-namespace FrameWork {
+namespace Framework {
 	public abstract class Singleton<T> : ISingleton where T : Singleton<T>
 	{
 		protected static T mInstance;

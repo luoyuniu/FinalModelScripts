@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Data;
 using UnityEngine.SceneManagement;
 
-namespace FrameWork
+namespace Framework
 {
     public partial class UIManager : MgrBase, ISingleton
     {

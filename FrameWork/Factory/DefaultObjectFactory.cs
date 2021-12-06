@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 默认对象工厂：相关对象是通过New 出来的

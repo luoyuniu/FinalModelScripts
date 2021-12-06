@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 对象工厂

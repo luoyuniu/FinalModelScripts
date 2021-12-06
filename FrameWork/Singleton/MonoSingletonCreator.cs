@@ -1,7 +1,7 @@
 using System.Reflection;
 using UnityEngine;
 
-namespace FrameWork {	
+namespace Framework {
 	public static class MonoSingletonCreator
 	{
 		public static bool IsUnitTestMode { get; set; }

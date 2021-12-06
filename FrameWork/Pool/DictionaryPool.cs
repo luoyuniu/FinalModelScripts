@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
     /// 字典对象池：用于存储相关对象

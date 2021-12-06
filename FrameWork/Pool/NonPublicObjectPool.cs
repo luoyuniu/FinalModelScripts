@@ -1,6 +1,6 @@
 using System;
 
-namespace FrameWork
+namespace Framework
 {
     /// <summary>
 	/// Object pool 4 class who no public constructor

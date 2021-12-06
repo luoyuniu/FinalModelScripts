@@ -1,4 +1,4 @@
-namespace FrameWork
+namespace Framework
 {
     public class PanelLoader : ResLoader
     {
@@ -19,12 +19,11 @@ namespace FrameWork
 
         public UnityEngine.GameObject LoadPanelPrefab(string path)
         {
-            return UnityEngine.Object.Instantiate(mInstance.AssetLoad<UnityEngine.GameObject>(path));
+            return new UnityEngine.GameObject();
         }
 
         public void Unload()
         {
-            mInstance.UnloadAll();
             mInstance = null;
         }
     }

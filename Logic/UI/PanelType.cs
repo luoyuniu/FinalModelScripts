@@ -1,6 +1,8 @@
-public enum PanelType
-{
-    DEFAULTLOADINGPANEL,
-    TESTPANEL,
-    MAINMENU,
+
+namespace Framework {	public enum PanelType
+	{
+	    DEFAULTLOADINGPANEL,
+	    TESTPANEL,
+	    MAINMENU,
+	}
 }
